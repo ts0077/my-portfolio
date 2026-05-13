@@ -13,7 +13,7 @@ export default function Hero({ name, title, subTitle, buttonText, onButtonClick 
     return (
         <>
             <section className="bg-gray-50 py-10 md:py-0 ">
-                
+
                 <div className="max-w-7xl mx-auto ">
 
                     <div className="flex flex-col-reverse md:flex-row items-center justify-between md:min-h-[90vh] gap-12">
@@ -33,7 +33,7 @@ export default function Hero({ name, title, subTitle, buttonText, onButtonClick 
                                 <Link href={"#services-section"}
                                     onClick={onButtonClick}
                                     className="bg-yellow-950 text-white px-6 py-2 text-center rounded-xl focus:ring-2 transition-all duration-300 hover:bg-yellow-900 font-semibold">{buttonText}</Link>
-                                <a href="/Talha Shabbir Updated Resume.pdf" download={"talhashabbir-13-05-2026 Resume.pdf"}>
+                                <a href="/Talha Shabbir Updated Resume.pdf" download={"talhashabbir-13-05-2026-Resume.pdf"}>
 
                                     <button className="py-2 px-6 w-full  flex gap-2 justify-center  border items-center rounded-xl cursor-pointer">Download CV <Download /> </button>
                                 </a>
