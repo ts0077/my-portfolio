@@ -28,11 +28,10 @@ export function CardHomeProjects ({name = "Project Name",link = "pjtestdesign.pn
          <div className="bg-yellow-950 flex flex-col w-70 rounded-2xl hover:scale-105 transition-all duration-300 ease-in-out animation-pulse">
             <img className="max-w-70 border object-fill" src={link} alt="" />
             <div className="flex justify-between ">
-        <h2 className="p-3 text-center text-white">{name}</h2>
+        <h2 className="p-3 text-center text-white text-md">{name}</h2>
         <button
         onClick={onViewDetails}
         className="bg-white px-4 font-bold cursor-pointer outline rounded-l-xl text-s  outline-yellow-950 ">View Details</button>
-
             </div>
          </div>
         
