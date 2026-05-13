@@ -35,7 +35,7 @@ export default function Hero({ name, title, subTitle, buttonText, onButtonClick 
                                     className="bg-yellow-950 text-white px-6 py-2 text-center rounded-xl focus:ring-2 transition-all duration-300 hover:bg-yellow-900 font-semibold">{buttonText}</Link>
                                 <a href="/talhashabbirresume.pdf" download={"Talha-Shabbir-Resume.pdf"}>
 
-                                    <button className="py-2 px-6 w-full  flex gap-2 justify-center  border items-center rounded-xl cursor-pointer">Download CV <Download /> </button>
+                                    <button className="py-2 px-6 w-full flex gap-2 justify-center  border items-center rounded-xl shadow-xs cursor-pointer">Download CV <Download /> </button>
                                 </a>
                             </div>
                         </div>
